@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/szymon/ros-mobile-robot/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/szymon/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/szymon/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/devel/include"
+            ],
+            "name": "ROS"
+        }
+    ],
+    "version": 4
+}
