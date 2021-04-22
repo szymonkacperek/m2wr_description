@@ -163,7 +163,10 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
  catkin_install_python(PROGRAMS
 #   scripts/my_python_script
-	src/nodes/static_turtle_tf2_broadcaster.py
+	src/nodes/turtle_tf2_broadcaster.py
+	src/nodes/turtle_tf2_listener.py
+	src/nodes/fixed_tf2_broadcaster.py
+	src/nodes/dynamic_tf2_broadcaster.py
  	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 
